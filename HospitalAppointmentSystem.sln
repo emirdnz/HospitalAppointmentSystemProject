@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HospitalAppointmentSystemBackend", "HospitalAppointmentSystemBackend", "{D1596300-0176-43DB-A1B2-EBF3CCBDE875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalAppointmentSystem.server", "HospitalAppointmentSystemBackend\HospitalAppointmentSystem\HospitalAppointmentSystem.server.csproj", "{8A7B699F-739D-4883-AC3C-6969124BF65C}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "hospitalappointmentsystemproject.client", "HospitalAppointmentSystemProject\hospitalappointmentsystemproject.client\hospitalappointmentsystemproject.client.esproj", "{4A6B57EF-7381-4CDB-A539-FB6EB7B02332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HospitalAppointmentSystemFrontend", "HospitalAppointmentSystemFrontend", "{FF5963F9-78E1-4FD7-9F15-6CB969817191}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A7B699F-739D-4883-AC3C-6969124BF65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7B699F-739D-4883-AC3C-6969124BF65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7B699F-739D-4883-AC3C-6969124BF65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7B699F-739D-4883-AC3C-6969124BF65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6B57EF-7381-4CDB-A539-FB6EB7B02332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6B57EF-7381-4CDB-A539-FB6EB7B02332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6B57EF-7381-4CDB-A539-FB6EB7B02332}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A6B57EF-7381-4CDB-A539-FB6EB7B02332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6B57EF-7381-4CDB-A539-FB6EB7B02332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6B57EF-7381-4CDB-A539-FB6EB7B02332}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A7B699F-739D-4883-AC3C-6969124BF65C} = {D1596300-0176-43DB-A1B2-EBF3CCBDE875}
+		{4A6B57EF-7381-4CDB-A539-FB6EB7B02332} = {FF5963F9-78E1-4FD7-9F15-6CB969817191}
+	EndGlobalSection
+EndGlobal
